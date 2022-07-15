@@ -1,3 +1,19 @@
-.legenda{
-width: 300px;
+body{
+    font-family: 'Montserrat', sans-serif ;
+    color: black;
+}
+header{
+    display: flex;
+}
+.lista-navegador{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navegador{
+    margin-left: auto;
+    margin-right: 140px;
+}
+#Leandro{
+    border-radius: 50%;
 }
