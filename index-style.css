@@ -1,19 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Montserrat', sans-serif ;
-    color: black;
+    color: #dee2e6;
+    margin: 0px;
 }
 header{
     display: flex;
-}
-.lista-navegador{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #212529;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+    color: white;
+    padding: 25px;
 }
 .navegador{
     margin-left: auto;
     margin-right: 140px;
 }
+.lista-navegador{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+nav a{
+    color: white;
+}
+#QSE{
+    background-color: #343a40;
+}
+.espaço{
+    padding: 70px;
+}
+.container1{
+    display: flex;
+}
 #Leandro{
     border-radius: 50%;
+}
+a{
+text-decoration: none;
+color: #dee2e6;
 }
