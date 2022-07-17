@@ -12,7 +12,7 @@ header{
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: #212529;
+    background-color: #05110d
     box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
     z-index: 10;
     color: white;
@@ -32,12 +32,12 @@ nav a{
     color: white;
 }
 #QSE{
-    background-color: #343a40;
+    background-color: #1b4332;
 }
 .espaço{
     padding: 70px;
 }
-.container1{
+.container-introducao{
     display: flex;
 }
 #Leandro{
@@ -47,3 +47,16 @@ a{
 text-decoration: none;
 color: #dee2e6;
 }
+#MT{
+    background-color: #2d6a4f;
+}
+#Contatos{
+    background-color: #40916c;
+}
+.container-trabalhos{
+    display: flex;
+}
+.container-footer{
+    display: flex;
+}
+
