@@ -50,13 +50,37 @@ color: #dee2e6;
 #MT{
     background-color: #2d6a4f;
 }
+.container-trabalhos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.trabalhos{
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+}
+.trabalhos-imagem{
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+.trabalhos-titulo{
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    text-align: center;
+}
+
 #Contatos{
     background-color: #40916c;
 }
-.container-trabalhos{
-    display: flex;
-}
+
 .container-footer{
     display: flex;
+    justify-content: center;
+    gap: 300px;
 }
 
