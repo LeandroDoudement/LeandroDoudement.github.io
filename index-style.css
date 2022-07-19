@@ -12,7 +12,7 @@ header{
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: #05110d
+    background-color: #05110d;
     box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
     z-index: 10;
     color: white;
@@ -33,6 +33,10 @@ nav a{
 }
 #QSE{
     background-color: #1b4332;
+    padding: 150px 0px 150px 0px;
+}
+.titulo{
+font-size: 30px;
 }
 .espaço{
     padding: 70px;
@@ -49,6 +53,7 @@ color: #dee2e6;
 }
 #MT{
     background-color: #2d6a4f;
+    padding: 100px 0px 150px 0px;
 }
 .container-trabalhos{
     display: grid;
@@ -57,7 +62,6 @@ color: #dee2e6;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
 }
 .trabalhos{
     box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
@@ -82,5 +86,9 @@ color: #dee2e6;
     display: flex;
     justify-content: center;
     gap: 300px;
+}
+.content{
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
